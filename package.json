@@ -1,0 +1,27 @@
+{
+  "name": "@josephadogeridev/get-timestamp-ts",
+  "version": "1.0.0",
+  "description": "typescript npm package to return timestamp in readable string format",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/GetTimeStampTS.git"
+  },
+  "keywords": [
+    "typescript",
+    "@josephadogeridev",
+    "@josephadogeridev/get-timestamp-ts",
+    "reactts",
+    "node",
+    "express"
+  ],
+  "author": "Joseph Adogeri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jadogeri/GetTimeStampTS/issues"
+  },
+  "homepage": "https://github.com/jadogeri/GetTimeStampTS#readme"
+}
