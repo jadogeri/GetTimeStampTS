@@ -6,7 +6,7 @@ import { getMonth } from "./getMonth";
  * 
  * @returns {string} Formatted current date and time.
  * @throws {Error} If there is an issue with date retrieval (unlikely with Date object).
- */export const getTimeStamp = () => {
+ */export const getTimeStamp = () : string => {
     const now = new Date();
     const year = now.getFullYear();
     const month = getMonth(now.getMonth());

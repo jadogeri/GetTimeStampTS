@@ -6,7 +6,7 @@ import { months } from "./months";
  * @returns {string} The name of the month.
  * @throws {RangeError} If the index is not between 0 and 11.
  */ 
-export const getMonth = (index) =>{
+export const getMonth = (index: number) : string =>{
     if( index < 0 || index > 11){
         throw new RangeError("the index must be between 0 and 11");
     }

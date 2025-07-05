@@ -10,13 +10,25 @@
     "type": "git",
     "url": "git+https://github.com/jadogeri/GetTimeStampTS.git"
   },
+    "publishConfig": {
+    "access": "public"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
   "keywords": [
     "typescript",
     "@josephadogeridev",
     "@josephadogeridev/get-timestamp-ts",
     "reactts",
     "node",
-    "express"
+    "express",
+    "timestamp",
+    "get-timestamp-js",
+    "josephadogeridev",
+    "Date",
+    "JosephAdogeri"
   ],
   "author": "Joseph Adogeri",
   "license": "MIT",
