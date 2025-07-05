@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/jadogeri/GetTimeStampTS/issues"
   },
-  "homepage": "https://github.com/jadogeri/GetTimeStampTS#readme"
+  "homepage": "https://github.com/jadogeri/GetTimeStampTS#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
 }
