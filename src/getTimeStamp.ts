@@ -16,12 +16,14 @@ export const getTimeStamp = () : string => {
     const minute = now.getMinutes();
     const second = now.getSeconds();
 
+    /*
     console.log("Year:", year);
     console.log("Month:", month);
     console.log("Day:", day);
     console.log("Hour:", hour);
     console.log("Minute:", minute);
     console.log("Second:", second);
+    */
     
     // You can format the output as needed
     // return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
