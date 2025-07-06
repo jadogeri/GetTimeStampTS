@@ -2,10 +2,15 @@
   "name": "@josephadogeridev/get-timestamp-ts",
   "version": "1.0.0",
   "description": "typescript npm package to return timestamp in readable string format",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
-    "test": "jest "
+    "test": "jest",
+    "build": "tsc && ts-add-js-extension --dir=dist"
   },
   "repository": {
     "type": "git",
@@ -40,12 +45,17 @@
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.10",
     "babel-jest": "^30.0.4",
+    "babel-loader": "^10.0.0",
     "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-add-js-extension": "^1.6.0"
   }
 }

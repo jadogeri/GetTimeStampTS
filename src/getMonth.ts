@@ -7,7 +7,12 @@ import { months } from "./months";
  * @throws {RangeError} If the index is not between 0 and 11.
  */ 
 export const getMonth = (index: number) : string =>{
-    if( index < 0 || index > 11){
+    if( typeof index === "boolean" ||typeof index === "string" ){
+        throw new RangeError("the value is not a number");
+    }    if( index < 0 || index > 11){
+        throw new RangeError("the index must be between 0 and 11");
+    }
+    if( (index < 0 || index > 11) || Number.isNaN(index)){
         throw new RangeError("the index must be between 0 and 11");
     }
     if(!Number.isInteger(index)){
