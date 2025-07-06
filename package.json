@@ -52,11 +52,8 @@
     "babel-jest": "^30.0.4",
     "babel-loader": "^10.0.0",
     "jest": "^30.0.4",
+    "ts-add-js-extension": "^1.6.0",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "cache": "^3.0.0",
-    "ts-add-js-extension": "^1.6.0"
   }
 }
