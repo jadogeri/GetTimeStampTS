@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "typescript npm package to return timestamp in readable string format",
   "main": "dist/index.js",
-  "types": "dist",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
