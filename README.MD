@@ -89,7 +89,7 @@ This package will allow users to:
 
 ### **2. Technology Stack**
 
-- **Programming Languages**: Typescript
+- **Programming Languages**: Typescript, Javascript
 - **IDE**: Visual Studio Code (VSCode)
 - **Test**: Jest
 - **Plugins**: Early AI
@@ -159,7 +159,7 @@ note : run test from node_modules after <a href="#3-usage"> Usage</a>
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { getTimeStamp } from '@josephadogeridev/get-timestamp-ts/dist';
+import { getTimeStamp } from '@josephadogeridev/get-timestamp-ts';
 
 function App() {
   const time = getTimeStamp();
@@ -197,7 +197,13 @@ export default App;
 
 Note : this test was done pre publish to npm manager
 
-1 In the root of package run npm pack to package the module into a zipped file (.tgz). 
+1 In the root of package run npm build to generate build (dist) for production. 
+
+```bash
+  npm run build
+```
+
+2 In the root of package run npm pack to package the module (dist) into a zipped file (.tgz). 
 
 ```bash
   npm pack
@@ -205,11 +211,11 @@ Note : this test was done pre publish to npm manager
 
 ![](assets/images/prenpmpack.png)
 
-2 Create or use existing React Application.
+3 Create or use existing React Application.
 
-3 Copy and paste the created file in the root of a React Application.
+4 Copy and paste the created file in the root of a React Application.
 
-4 Run command npm install @josephadogeridev/get-timestamp-ts to install created package.
+5 Run command npm install @josephadogeridev/get-timestamp-ts to install created package.
 
 ```bash
   npm install @josephadogeridev/get-timestamp-ts
