@@ -1,6 +1,7 @@
 # **GET TIMESTAMP TS**
 
 **Version:** 1.0.0
+
 **Date:** June 7, 2025
 
 ---
@@ -104,7 +105,7 @@ This package will allow users to:
 
 ### 3.1 Install Dependency ###
 
-1 Type npm install @josephadogeridev/get-timestamp-ts to install dependencies.
+1 Type `npm install @josephadogeridev/get-timestamp-ts` to install dependencies.
 
 ```bash
   npm install @josephadogeridev/get-timestamp-ts
@@ -139,13 +140,13 @@ export function App() {
 
 note : run test from node_modules after <a href="#3-usage"> Usage</a>
 
-1 Navigate to cd @josephadogeridev/get-timestamp-ts directory using command below.
+1 Navigate to driectory using command `cd node_modules/@josephadogeridev/get-timestamp-ts`.
 
 ```bash
   cd node_modules/@josephadogeridev/get-timestamp-ts
 ```
 
-2 Type npm run test to run unit tests.
+2 Type `npm run test` to run unit tests.
 
 ```bash
   npm run test
@@ -197,13 +198,13 @@ export default App;
 
 Note : this test was done pre publish to npm manager
 
-1 In the root of package run npm build to generate build (dist) for production. 
+1 In the root of package type `npm run build` to generate build (dist) for production. 
 
 ```bash
   npm run build
 ```
 
-2 In the root of package run npm pack to package the module (dist) into a zipped file (.tgz). 
+2 In the root of package run `npm pack` to package the module (dist) into a zipped file (.tgz). 
 
 ```bash
   npm pack
@@ -215,7 +216,7 @@ Note : this test was done pre publish to npm manager
 
 4 Copy and paste the created file in the root of a React Application.
 
-5 Run command npm install @josephadogeridev/get-timestamp-ts to install created package.
+5 Run command `npm install @josephadogeridev/get-timestamp-ts` to install created package.
 
 ```bash
   npm install @josephadogeridev/get-timestamp-ts
